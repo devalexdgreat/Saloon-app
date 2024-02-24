@@ -2,6 +2,7 @@ import Image from "next/image";
 import heroImg from '@/public/img.jpg';
 import heroImg2 from '@/public/img2.jpg';
 import heroImg3 from '@/public/img3.jpg';
+import heroImg4 from '@/public/img4.jpg';
 
 export default function Gallery() {
     return(
@@ -14,13 +15,8 @@ export default function Gallery() {
                 <div className="w-full columns-2 md:columns-3 [&>img:not(:first-child)]:mt-5 md:[&>img:not(first-child)]:mt-8">
                     <Image src={heroImg} className="" alt="" />
                     <Image src={heroImg2} className="" alt="" />
-                    <Image src={heroImg} className="" alt="" />
-                    <Image src={heroImg2} className="" alt="" />
                     <Image src={heroImg3} className="" alt="" />
-                    <Image src={heroImg3} className="" alt="" />
-                    <Image src={heroImg} className="" alt="" />
-                    <Image src={heroImg2} className="" alt="" />
-                    <Image src={heroImg3} className="" alt="" />
+                    <Image src={heroImg4} className="" alt="" />
                 </div>
 
                 {/* <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
