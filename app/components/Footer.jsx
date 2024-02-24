@@ -24,7 +24,7 @@ export default function Footer() {
                             <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Twitter">X</Link>
                             <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="SnapChat">SC</Link>
                         </div>
-                        <span className="text-xs">Made with❤️ by <Link href={'#'}>ADG.</Link></span> 
+                        <span className="text-xs">Made with❤️ by <Link href={'https://devalexdgreat.vercel.app'}>ADG.</Link></span> 
                     </div>
                 </div>
                 
