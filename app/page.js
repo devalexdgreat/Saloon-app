@@ -6,7 +6,7 @@ import Services from "./components/Services";
 
 export default function Home() {
   return (
-    <main className="w-full my-12 overflow-hidden">
+    <main className="w-full my-12">
         <Hero />
         <Gallery />
         <About />

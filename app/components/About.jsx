@@ -7,7 +7,10 @@ export default function About() {
                     <p>More about us</p>
                 </div>
                 <div className="mt-5 text-center text-base md:text-xl">
-                    <p>Welcome to MS, where passion for beauty meets a commitment to excellence. Nestled in the heart of Enugu Nigeria, our salon is more than a destination – it&rsquo;s an experience. With a team of skilled artisans dedicated to enhancing your natural beauty, we strive to create a haven of style and sophistication. At MS, we believe in the power of transformation, both inside and out. Immerse yourself in a world where trends are tailored, and elegance is redefined. Let our seasoned professionals pamper you with personalized care, leaving you refreshed, rejuvenated, and ready to conquer the world. Step into MS – where every detail is crafted with precision, and every visit is a celebration of your unique allure.</p>
+                    <p>At j&jay we specialize in catering to the unique needs of children and teenagers with natural hair. Located in a vibrant and welcoming space, our salon is a haven where young ones can embrace their natural curls, coils, kinks, and waves with confidence and joy.
+
+                    Our mission at j&jay is simple yet profound: to foster self-love, confidence, and positive self-expression in young individuals through the celebration of their natural hair. We believe that every curl tells a story, and we are dedicated to helping our young clients embrace their natural beauty with pride.
+                    </p>
                 </div>
             </div>
         </div>
