@@ -15,8 +15,8 @@ export default function Navbar() {
 
     return (
         <div className="w-full bg-white/80 backdrop-blur-sm fixed top-0 z-20 overflow-hidden">
-            <div className="w-11/12 mx-auto flex justify-between items-center py-6 overflow-hidden">
-            
+            <div className="w-11/12 mx-auto flex justify-between items-center overflow-hidden">
+
                 <Link href={'#'} className="text-orange-500 font-bold text-3xl"><Image src={logo} className="h-16 w-36" alt="" /> </Link>
                 <div className="md:flex gap-8 items-center hidden">
                     <Link href={'#'} className="hover:text-orange-500 duration-700">Home</Link>
@@ -29,7 +29,7 @@ export default function Navbar() {
             </div>
             {open && (
                 <div className="block md:hidden bg-white h-screen fixed top-0 z-40 w-full">
-                    <div className="w-11/12 mx-auto flex justify-between items-center py-6 border-b">
+                    <div className="w-11/12 mx-auto flex justify-between items-center border-b">
                         <Link href={'#'} className="text-orange-500 font-bold text-3xl"><Image src={logo} className="h-16 w-36" alt="" /> </Link>
                         
                         <button onClick={toggleMenu} className="border border-orange-500 text-orange-500 
