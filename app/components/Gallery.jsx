@@ -16,7 +16,7 @@ export default function Gallery() {
                     <Image src={heroImg} className="" alt="" />
                     <Image src={heroImg2} className="" alt="" />
                     <Image src={heroImg3} className="" alt="" />
-                    <Image src={heroImg4} className="" alt="" />
+                    <Image src={heroImg4} className="md:hidden" alt="" />
                 </div>
 
                 {/* <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
