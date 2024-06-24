@@ -9,7 +9,7 @@ export default function Hero() {
                 <div className="w-full md:w-6/12 text-center md:text-left">
                     <h1 className="leading-tight text-4xl md:text-5xl w-full md:w-9/12 font-bold mb-6"><span className="text-orange-500 font-bold">Discover</span> Your Style, Unleash Your Confidence at <span className="text-orange-500 font-bold">J&JAY</span></h1>
                     <p></p>
-                    <Link href={'https://wa.link/oz66dt'} className="py-2 px-4 text-white  bg-orange-500 hover:bg-orange-400">Book Appointment</Link>
+                    <Link href={'https://wa.link/zgcb8f'} className="py-2 px-4 text-white  bg-orange-500 hover:bg-orange-400">Book Appointment</Link>
                 </div>
                 <div className="w-full md:w-6/12 h-[24rem] md:h-[28rem]">
                     <Image src={heroImg} className="object-cover h-full object-top" alt="" />

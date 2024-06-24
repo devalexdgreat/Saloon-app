@@ -22,7 +22,7 @@ export default function Navbar() {
                     <Link href={'#aboutus'} className="hover:text-orange-500 duration-700">About</Link>
                     <Link href={'#gallery'} className="hover:text-orange-500 duration-700">Gallery</Link>
                     <Link href={'#services'} className="hover:text-orange-500 duration-700">Services</Link>
-                    <Link href={'https://wa.link/oz66dt'} className="py-2 px-4 bg-orange-500 hover:bg-orange-400 text-white duration-700">Book Appointment</Link>    
+                    <Link href={'https://wa.link/zgcb8f'} className="py-2 px-4 bg-orange-500 hover:bg-orange-400 text-white duration-700">Book Appointment</Link>    
                 </div>
                 <button onClick={toggleMenu} className="bg-orange-500 text-white py-1 px-4 md:hidden">Menu</button>
             </div>
@@ -40,7 +40,7 @@ export default function Navbar() {
                         <Link href={'#aboutus'} onClick={toggleMenu} className="hover:text-orange-500 py-6 border-b">About Us</Link>
                         <Link href={'#gallery'} onClick={toggleMenu} className="hover:text-orange-500 py-6 border-b">Gallery</Link>
                         <Link href={'#services'} onClick={toggleMenu} className="hover:text-orange-500 py-6 border-b">Services</Link>
-                        <Link href={'https://wa.link/oz66dt'} onClick={toggleMenu} className="bg-orange-500 hover:bg-orange-400 
+                        <Link href={'https://wa.link/zgcb8f'} onClick={toggleMenu} className="bg-orange-500 hover:bg-orange-400 
                         text-white mt-6 py-2 flex items-center text-center justify-center duration-700">
                             Book Appointment
                         </Link>
