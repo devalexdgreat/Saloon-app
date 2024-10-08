@@ -11,9 +11,21 @@ export default function Footer() {
                     <div className="flex flex-col leading-tight items-center md:items-start">
                         <h1 className="text-orange-500">Contact Us</h1>
                         <div className="flex gap-6">
-                            <Link href={'tel: 08025320396'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Call">Call</Link>
-                            <Link href={'https://wa.link/oz66dt'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Whatsapp">Whatsapp</Link>
-                            <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Send Email">Email</Link>
+                            <Link href={'tel: 08025320396'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Call" passHref legacyBehavior>
+                                <a target="_blank">
+                                    Call
+                                </a>
+                            </Link>
+                            <Link href={'https://wa.link/oz66dt'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Whatsapp" passHref legacyBehavior>
+                                <a target="_blank">
+                                    Whatsapp
+                                </a>
+                            </Link>
+                            <Link href={'mailto: jandjaynaturalhairs@gmail.com'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Send Email" passHref legacyBehavior>
+                                <a target="_blank">
+                                    Email
+                                </a>
+                            </Link>
                         </div>
                     </div> 
                     <div className="flex flex-col leading-tight items-center md:items-start">
