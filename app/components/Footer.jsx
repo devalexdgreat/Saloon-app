@@ -19,8 +19,16 @@ export default function Footer() {
                     <div className="flex flex-col leading-tight items-center md:items-start">
                         <h1 className="text-orange-500">Socials</h1>
                         <div className="flex gap-6">
-                            <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Facebook">FB</Link>
-                            <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Instagram">IG</Link>
+                            <Link href={'https://www.facebook.com/chimdinma.jane'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Facebook" passHref legacyBehavior>
+                                <a target="_blank">
+                                    FB
+                                </a>
+                            </Link>
+                            <Link href={'https://www.instagram.com/jojane351?igsh=YzljYTk1ODg3Zg== '} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Instagram" passHref legacyBehavior>
+                                <a target="_blank">
+                                    IG
+                                </a>
+                            </Link>
                             <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Twitter">X</Link>
                             <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="SnapChat">SC</Link>
                         </div>

@@ -11,7 +11,7 @@ export default function Services() {
                     <p>What we offer</p>
                 </div>
                 <div>
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-3 justify-center text-white">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 justify-center text-white">
                         <div className="border border-black bg-orange-500 shadow-2xl shadow-black/50 flex flex-col rounded-3xl items-center justify-start">
                             <div className='bg-orange-600 w-full rounded-t-3xl px-4 pt-3 pb-2 flex justify-between border-b border-black'>
                                 <h1 className="font-bold text-xl text-white">Natural Hair Care</h1>
