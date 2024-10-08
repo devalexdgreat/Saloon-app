@@ -10,7 +10,7 @@ export default function Hero() {
             <div className='h-full md:pt-12 pt-24 w-11/12 mx-auto flex flex-col md:flex-row justify-center gap-16'>
                 <div className='w-full md:w-6/12 flex items-center'>
                     <div className='text-center md:text-left'>
-                        <h1 className="leading-tight text-4xl md:text-7xl w-full md:w-11/12 mb-8 border-black">
+                        <h1 className="leading-tight text-5xl md:text-7xl w-full md:w-11/12 mb-8 border-black">
                             Your <span className="text-orange-500 font-bold">Hair</span>, your <span className="text-orange-500 font-bold">Style</span>, our <span className="text-orange-500 font-bold stroke-2 stroke-black">Story</span>
                         </h1>
                         <Link href={'https://wa.link/d00m0e'} className="py-2.5 px-4 text-white  bg-orange-500 hover:bg-orange-400 rounded-full border border-black">Book Appointment</Link>
