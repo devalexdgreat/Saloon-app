@@ -11,44 +11,32 @@ export default function Footer() {
                     <div className="flex flex-col leading-tight items-center md:items-start">
                         <h1 className="text-orange-500">Contact Us</h1>
                         <div className="flex gap-6">
-                            <Link href={'tel: 08025320396'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Call" passHref legacyBehavior>
-                                <a target="_blank">
-                                    Call
-                                </a>
+                            <Link target="_blank" href={'tel:08025320396'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Call">
+                                Call
                             </Link>
-                            <Link href={'https://wa.link/oz66dt'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Whatsapp" passHref legacyBehavior>
-                                <a target="_blank">
-                                    Whatsapp
-                                </a>
+                            <Link target="_blank" href={'https://wa.link/oz66dt'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Whatsapp">
+                                Whatsapp
                             </Link>
-                            <Link href={'mailto: jandjaynaturalhairs@gmail.com'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Send Email" passHref legacyBehavior>
-                                <a target="_blank">
-                                    Email
-                                </a>
+                            <Link target="_blank" href={'mailto:jandjaynaturalhairs@gmail.com'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Send Email">
+                                Email
                             </Link>
                         </div>
                     </div> 
                     <div className="flex flex-col leading-tight items-center md:items-start">
                         <h1 className="text-orange-500">Socials</h1>
                         <div className="flex gap-6">
-                            <Link href={'https://www.facebook.com/chimdinma.jane'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Facebook" passHref legacyBehavior>
-                                <a target="_blank">
-                                    FB
-                                </a>
+                            <Link target="_blank" href={'https://www.facebook.com/chimdinma.jane'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Facebook">
+                                FB
                             </Link>
-                            <Link href={'https://www.instagram.com/jojane351?igsh=YzljYTk1ODg3Zg== '} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Instagram" passHref legacyBehavior>
-                                <a target="_blank">
-                                    IG
-                                </a>
+                            <Link target="_blank" href={'https://www.instagram.com/jojane351?igsh=YzljYTk1ODg3Zg== '} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Instagram">
+                                IG
                             </Link>
-                            <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Twitter">X</Link>
-                            <Link href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="SnapChat">SC</Link>
+                            <Link target="_blank" href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="Twitter">X</Link>
+                            <Link target="_blank" href={'#'} className="font-bold leading-loose hover:text-orange-500 duration-500" title="SnapChat">SC</Link>
                         </div>
-                        <span className="text-xs">Made with❤️ by <Link href={'https://devalexdgreat.vercel.app'}>ADG.</Link></span> 
+                        <span className="text-xs">Made with ❤️ by <Link target="_blank" href={'https://adgxdev.vercel.app'} className="hover:text-orange-500 duration-500">ADGXDEV.</Link></span> 
                     </div>
                 </div>
-                
-                
             </div>
         </div>
     );
