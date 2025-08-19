@@ -8,7 +8,7 @@ export default function Hero() {
     return(
         <div className="w-full h-[90vh] md:h-screen flex justify-start relative">
             <div className="absolute top-0 -z-10 h-full w-full bg-white"><div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(236,163,104,0.5)] opacity-50 blur-[80px]"></div></div>
-            <div className='h-full md:pt-12 pt-24 w-11/12 mx-auto flex flex-col md:flex-col lg:flex-row justify-center gap-16'>
+            <div className='h-full md:pt-12 pt-28 w-11/12 mx-auto flex flex-col md:flex-col lg:flex-row justify-center gap-16'>
                 <div className='w-full md:w-full lg:w-6/12 flex items-center'>
                     <div className='text-center md:text-center lg:text-left'>
                         <h1 className="text-5xl md:text-6xl w-full md:w-full lg:w-11/12 font-bold tracking-tighter">
